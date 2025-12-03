@@ -8,7 +8,7 @@ export const haulerList = () => {
     haulers = getHaulers()
 
     for (const hauler of haulers ) {
-        haulerHTML += `<li hauler-id= "${hauler.id}">${hauler.name}</li>`
+        haulerHTML += `<li hauler-id= "${hauler.id}" dock-id="${hauler.dockId}">${hauler.name}</li>`
     }
     haulerHTML += "</ul>"
 return haulerHTML
