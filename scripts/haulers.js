@@ -11,4 +11,5 @@ export const haulerList = () => {
         haulerHTML += `<li hauler-id= "${hauler.id}">${hauler.name}</li>`
     }
     haulerHTML += "</ul>"
+return haulerHTML
 }
